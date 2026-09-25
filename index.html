@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLMS | Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <section class="auth-brand">
+      <div class="brand-mark">SL</div>
+      <p class="eyebrow">SDC PROJECT • PS 55</p>
+      <h1>Sports League<br>Management System</h1>
+      <p class="brand-copy">A simple front-end system for managing teams, players, fixtures, results and league standings.</p>
+      <div class="mini-stats">
+        <span><strong>02</strong> Modules</span>
+        <span><strong>06+</strong> Features</span>
+        <span><strong>100%</strong> HTML/CSS/JS</span>
+      </div>
+    </section>
+
+    <section class="auth-card">
+      <div class="auth-heading">
+        <p class="eyebrow">WELCOME BACK</p>
+        <h2>Sign in</h2>
+        <p>Use your registered account to continue.</p>
+      </div>
+
+      <form id="loginForm" class="form-grid">
+        <label>Email
+          <input id="loginEmail" type="email" placeholder="you@example.com" required>
+        </label>
+        <label>Password
+          <input id="loginPassword" type="password" placeholder="Enter password" required>
+        </label>
+        <button class="btn btn-primary" type="submit">Login</button>
+        <p id="loginMessage" class="form-message"></p>
+      </form>
+
+      <div class="demo-login">
+        <strong>Demo Admin</strong>
+        <span>admin@slms.com</span>
+        <span>admin123</span>
+      </div>
+
+      <p class="auth-switch">New user? <a href="signup.html">Create an account</a></p>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+  <script>
+    initLoginPage();
+  </script>
+</body>
+</html>
