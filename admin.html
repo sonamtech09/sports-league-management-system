@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SLMS | Admin Dashboard</title><link rel="stylesheet" href="css/style.css"></head>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SLMS | Admin Dashboard</title><link rel="stylesheet" href="style.css"></head>
 <body class="app-page"><div class="app-shell"><aside class="sidebar"><div class="sidebar-brand"><span>SL</span><div><strong>SLMS</strong><small>Admin Module</small></div></div><nav class="side-nav"><button class="nav-item active" data-section="overview">Dashboard</button><button class="nav-item" data-section="teams">Teams</button><button class="nav-item" data-section="players">Players</button><button class="nav-item" data-section="matches">Matches</button><button class="nav-item" data-section="results">Results</button><button class="nav-item" data-section="standings">Standings</button><button class="nav-item" data-section="activity">Activity</button><button class="nav-item" data-section="profile">Profile</button></nav><button id="adminLogout" class="logout-btn">Logout</button></aside>
 <main class="content"><header class="topbar"><div><p class="eyebrow">ADMIN MODULE</p><h1 id="sectionTitle">Overview</h1></div><div class="profile-chip"><span class="avatar">A</span><span>Administrator</span></div></header>
 
@@ -19,4 +19,4 @@
 
 <section id="profileSection" class="dashboard-section hidden"><div class="section-intro"><div><h2>Admin Profile</h2><p>Your account details.</p></div></div><div id="adminProfile" class="panel" style="max-width:480px"><form id="adminProfileForm" class="form-grid"><label>Full Name<input id="adminProfileName" type="text" required></label><label>Email<input id="adminProfileEmail" type="text" disabled></label><label>Role<input id="adminProfileRole" type="text" disabled></label><button class="btn btn-primary" type="submit">Save Changes</button><p id="adminProfileMessage" class="form-message"></p></form></div></section>
 
-</main></div><script src="js/app.js"></script><script>initAdminPage();</script></body></html>
+</main></div><script src="app.js"></script><script>initAdminPage();</script></body></html>
